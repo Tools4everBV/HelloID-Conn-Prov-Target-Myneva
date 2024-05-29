@@ -1,0 +1,63 @@
+[
+  {
+    "key": "UserName",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "UserName",
+      "description": "The UserName to connect to the API",
+      "required": true
+    }
+  },
+  {
+    "key": "Password",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "Password",
+      "description": "The password to connect to the API",
+      "required": true
+    }
+  },
+  {
+    "key": "BaseUrl",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "BaseUrl",
+      "description": "The URL to the API. Example: 'https://ws.regas.nl/regasamnis'",
+      "required": true
+    }
+  },
+  {
+    "key": "OrganizationCode",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "OrganizationCode",
+      "description": "The URL to the API.",
+      "required": true
+    }
+  },
+  {
+    "key": "PowerShellModulePath",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "PowerShellModulePath",
+      "description": "The path of the Powershell Module, Example: 'C:\\install\\Myneva.psm1'",
+      "required": true
+    }
+  },
+  {
+    "key": "FilePathDLL",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "FilePathDLL",
+      "description": "The path of the Low level DLL, Example: 'C:\\install\\Regas.dll'",
+      "required": true
+    }
+  }
+]
