@@ -23,7 +23,7 @@
   {
     "key": "BaseUrl",
     "type": "input",
-    "defaultValue": "",
+    "defaultValue": "https://ws.regas.nl/regasamnis",
     "templateOptions": {
       "label": "BaseUrl",
       "description": "The URL to the API. Example: 'https://ws.regas.nl/regasamnis'",
@@ -36,7 +36,7 @@
     "defaultValue": "",
     "templateOptions": {
       "label": "OrganizationCode",
-      "description": "The URL to the API.",
+      "description": "The organization code to connect to the API.",
       "required": true
     }
   },
@@ -57,6 +57,26 @@
     "templateOptions": {
       "label": "FilePathDLL",
       "description": "The path of the Low level DLL, Example: 'C:\\install\\Regas.dll'",
+      "required": true
+    }
+  },
+  {
+    "key": "ImportDynamicButtons",
+    "type": "checkbox",
+    "defaultValue": false,
+    "templateOptions": {
+      "label": "Import Dynamic Buttons",
+      "description": "Whether to import dynamic buttons to enrich account details (Enabling will significantly increase the time it takes to import accounts)",
+      "required": true
+    }
+  },
+  {
+    "key": "ImportServices",
+    "type": "checkbox",
+    "defaultValue": false,
+    "templateOptions": {
+      "label": "Import Services",
+      "description": "Whether to import services to enrich account details (Enabling will significantly increase the time it takes to import accounts)",
       "required": true
     }
   }
